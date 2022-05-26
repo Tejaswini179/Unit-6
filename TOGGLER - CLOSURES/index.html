@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="text"></p>
+    <button name="button" id="1" onclick ="fnAction()">Todo</button>
+    <script>
+        function fnAction(){
+    var id = document.getElementsByName("button")[0].id;
+    if(id==1){
+        document.getElementById("text").innerText = 'learn react'
+        document.getElementsByName("button")[0].id=0
+
+    }
+    else if (id==2){
+        document.getElementById("text").innerText = 'learn redux'
+        document.getElementsByName("button")[0].id=1
+    }
+    else{
+    
+        document.getElementById("text").innerText = 'learn webpack'
+        document.getElementsByName("button")[0].id=2
+    
+    }
+}
+    </script>
+</body>
+</html>
