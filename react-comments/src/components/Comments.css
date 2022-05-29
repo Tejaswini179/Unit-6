@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .App {
+   
+    min-height: 100vh;
+    
+    padding: 15px 20px;
+  }
+  
+  
+  .replyDiv {
+    display: flex;
+    color: gray;
+    font-weight: 600;
+    gap: 15px;
+    
+  }
+  
+  .MainCommentDiv {
+    width: 400px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+    background-color: rgb(207,206,207);
+  }
+  
+  .upperDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+  }
+  
+  .btn {
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    border-radius: 50%;
+    border: none;
+  
+    cursor: pointer;
+  }
+  
+  .timeDiv {
+    display: flex;
+    gap: 10px;
+    color: black;
+    
+  
+  }
+  
+  .comment {
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .btnDiv {
+    min-width: 50px;
+  }
+  
+  .endMainCommentDiv {
+    justify-content: left;
+  }
+  
+  .hideBtn {
+    visibility: hidden;
+    
+  }
+
+
+
+
+
