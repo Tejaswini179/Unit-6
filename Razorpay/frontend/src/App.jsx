@@ -65,15 +65,21 @@ paymentObject.open()
 
                             
   return (
-    <div>
-<a
+    <div className='App'>
+
+  <img src="https://cdn.igp.com/f_auto,q_auto,t_pnopt8prodlp/products/p-colourful-metal-planter-without-plant-121258-m.jpg" alt="" />
+  <h4>
+Colourful Metal Planter</h4>
+<h5>₹ 470</h5>
+
+<button
 					className="App-link"
 					onClick={displayRazorpay}
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					Donate $5
-				</a>
+				 Buy Now !!!
+				</button>
     </div>
   )
 }

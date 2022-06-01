@@ -32,7 +32,7 @@ app.post("/verification",(req,res)=>{
     if (digest === req.headers['x-razorpay-signature']) {
 		console.log('request is legit')
 	
-		require('fs').writeFileSync('payment1.json', JSON.stringify(req.body,null,4))
+	
 	} else {
 	
 	}
@@ -44,7 +44,7 @@ app.post('/orders/pay',async(req,res)=>{
     // razorpay.orders.create(options)
 
     const payment_capture = 1
-	const amount = 5
+	const amount = 470
 	const currency = 'INR'
 
 	const options = {
