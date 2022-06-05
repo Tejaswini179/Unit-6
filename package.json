@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "create-react-app": "^1.5.2",
-    "infinite-scrolling": "^1.0.2",
-    "redux-hooks": "^0.1.5"
-  }
-}
